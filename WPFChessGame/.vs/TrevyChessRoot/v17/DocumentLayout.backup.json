@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dev\\GitHub\\WPFChessGame\\WPFChessGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5A2ED5-4B33-465D-A62F-47B721957960}|ChessBoard\\TrevyBurgess.Games.TrevyChess.ChessBoardLogic\\TrevyBurgess.Games.TrevyChess.ChessBoardLogic.csproj|d:\\dev\\github\\wpfchessgame\\wpfchessgame\\chessboard\\trevyburgess.games.trevychess.chessboardlogic\\chesspiece\\internals\\rook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5A2ED5-4B33-465D-A62F-47B721957960}|ChessBoard\\TrevyBurgess.Games.TrevyChess.ChessBoardLogic\\TrevyBurgess.Games.TrevyChess.ChessBoardLogic.csproj|solutionrelative:chessboard\\trevyburgess.games.trevychess.chessboardlogic\\chesspiece\\internals\\rook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5A2ED5-4B33-465D-A62F-47B721957960}|ChessBoard\\TrevyBurgess.Games.TrevyChess.ChessBoardLogic\\TrevyBurgess.Games.TrevyChess.ChessBoardLogic.csproj|d:\\dev\\github\\wpfchessgame\\wpfchessgame\\chessboard\\trevyburgess.games.trevychess.chessboardlogic\\chesspiece\\internals\\king.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5A2ED5-4B33-465D-A62F-47B721957960}|ChessBoard\\TrevyBurgess.Games.TrevyChess.ChessBoardLogic\\TrevyBurgess.Games.TrevyChess.ChessBoardLogic.csproj|solutionrelative:chessboard\\trevyburgess.games.trevychess.chessboardlogic\\chesspiece\\internals\\king.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9093B97-F803-458F-8343-0961EC117E2C}|Docs{C9093B97-F803-458F-8343-0961EC117E2C}|D:\\Dev\\GitHub\\WPFChessGame\\WPFChessGame\\Readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C9093B97-F803-458F-8343-0961EC117E2C}|Docs{C9093B97-F803-458F-8343-0961EC117E2C}|solutionrelative:Readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE237342-BC1A-4495-9E23-22C4BA7C322E}|ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI.csproj|d:\\dev\\github\\wpfchessgame\\wpfchessgame\\chessgameui\\trevyburgess.games.trevychess.chessgameui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE237342-BC1A-4495-9E23-22C4BA7C322E}|ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI.csproj|solutionrelative:chessgameui\\trevyburgess.games.trevychess.chessgameui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE237342-BC1A-4495-9E23-22C4BA7C322E}|ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI.csproj|d:\\dev\\github\\wpfchessgame\\wpfchessgame\\chessgameui\\trevyburgess.games.trevychess.chessgameui\\mainwindow.commands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE237342-BC1A-4495-9E23-22C4BA7C322E}|ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI.csproj|solutionrelative:chessgameui\\trevyburgess.games.trevychess.chessgameui\\mainwindow.commands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE237342-BC1A-4495-9E23-22C4BA7C322E}|ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI.csproj|d:\\dev\\github\\wpfchessgame\\wpfchessgame\\chessgameui\\trevyburgess.games.trevychess.chessgameui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE237342-BC1A-4495-9E23-22C4BA7C322E}|ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI.csproj|solutionrelative:chessgameui\\trevyburgess.games.trevychess.chessgameui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE237342-BC1A-4495-9E23-22C4BA7C322E}|ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI.csproj|d:\\dev\\github\\wpfchessgame\\wpfchessgame\\chessgameui\\trevyburgess.games.trevychess.chessgameui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EE237342-BC1A-4495-9E23-22C4BA7C322E}|ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI.csproj|solutionrelative:chessgameui\\trevyburgess.games.trevychess.chessgameui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE237342-BC1A-4495-9E23-22C4BA7C322E}|ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI.csproj|d:\\dev\\github\\wpfchessgame\\wpfchessgame\\chessgameui\\trevyburgess.games.trevychess.chessgameui\\viewmodel\\mainwindow.viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE237342-BC1A-4495-9E23-22C4BA7C322E}|ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI.csproj|solutionrelative:chessgameui\\trevyburgess.games.trevychess.chessgameui\\viewmodel\\mainwindow.viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE237342-BC1A-4495-9E23-22C4BA7C322E}|ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI.csproj|d:\\dev\\github\\wpfchessgame\\wpfchessgame\\chessgameui\\trevyburgess.games.trevychess.chessgameui\\helperclasses\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE237342-BC1A-4495-9E23-22C4BA7C322E}|ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI.csproj|solutionrelative:chessgameui\\trevyburgess.games.trevychess.chessgameui\\helperclasses\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE237342-BC1A-4495-9E23-22C4BA7C322E}|ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI.csproj|d:\\dev\\github\\wpfchessgame\\wpfchessgame\\chessgameui\\trevyburgess.games.trevychess.chessgameui\\helperclasses\\helpermethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE237342-BC1A-4495-9E23-22C4BA7C322E}|ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI.csproj|solutionrelative:chessgameui\\trevyburgess.games.trevychess.chessgameui\\helperclasses\\helpermethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE237342-BC1A-4495-9E23-22C4BA7C322E}|ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI.csproj|d:\\dev\\github\\wpfchessgame\\wpfchessgame\\chessgameui\\trevyburgess.games.trevychess.chessgameui\\helperclasses\\extensionmethiods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE237342-BC1A-4495-9E23-22C4BA7C322E}|ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI.csproj|solutionrelative:chessgameui\\trevyburgess.games.trevychess.chessgameui\\helperclasses\\extensionmethiods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Rook.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\WPFChessGame\\WPFChessGame\\ChessBoard\\TrevyBurgess.Games.TrevyChess.ChessBoardLogic\\ChessPiece\\Internals\\Rook.cs",
+              "RelativeDocumentMoniker": "ChessBoard\\TrevyBurgess.Games.TrevyChess.ChessBoardLogic\\ChessPiece\\Internals\\Rook.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\WPFChessGame\\WPFChessGame\\ChessBoard\\TrevyBurgess.Games.TrevyChess.ChessBoardLogic\\ChessPiece\\Internals\\Rook.cs",
+              "RelativeToolTip": "ChessBoard\\TrevyBurgess.Games.TrevyChess.ChessBoardLogic\\ChessPiece\\Internals\\Rook.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAmwCwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T01:05:00.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "King.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\WPFChessGame\\WPFChessGame\\ChessBoard\\TrevyBurgess.Games.TrevyChess.ChessBoardLogic\\ChessPiece\\Internals\\King.cs",
+              "RelativeDocumentMoniker": "ChessBoard\\TrevyBurgess.Games.TrevyChess.ChessBoardLogic\\ChessPiece\\Internals\\King.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\WPFChessGame\\WPFChessGame\\ChessBoard\\TrevyBurgess.Games.TrevyChess.ChessBoardLogic\\ChessPiece\\Internals\\King.cs",
+              "RelativeToolTip": "ChessBoard\\TrevyBurgess.Games.TrevyChess.ChessBoardLogic\\ChessPiece\\Internals\\King.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAmwCgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T01:04:53.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Readme.txt",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\WPFChessGame\\WPFChessGame\\Readme.txt",
+              "RelativeDocumentMoniker": "Readme.txt",
+              "ToolTip": "D:\\Dev\\GitHub\\WPFChessGame\\WPFChessGame\\Readme.txt",
+              "RelativeToolTip": "Readme.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-09T01:03:53.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\WPFChessGame\\WPFChessGame\\ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\WPFChessGame\\WPFChessGame\\ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABUBAAAAAAAAAAAAALoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T01:03:12.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.Commands.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\WPFChessGame\\WPFChessGame\\ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\MainWindow.Commands.cs",
+              "RelativeDocumentMoniker": "ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\MainWindow.Commands.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\WPFChessGame\\WPFChessGame\\ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\MainWindow.Commands.cs",
+              "RelativeToolTip": "ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\MainWindow.Commands.cs",
+              "ViewState": "AgIAABUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T01:02:58.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\WPFChessGame\\WPFChessGame\\ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\App.xaml.cs",
+              "RelativeDocumentMoniker": "ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\App.xaml.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\WPFChessGame\\WPFChessGame\\ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\App.xaml.cs",
+              "RelativeToolTip": "ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T01:02:54.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\WPFChessGame\\WPFChessGame\\ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\App.xaml",
+              "RelativeDocumentMoniker": "ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\App.xaml",
+              "ToolTip": "D:\\Dev\\GitHub\\WPFChessGame\\WPFChessGame\\ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\App.xaml",
+              "RelativeToolTip": "ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-09T01:02:52.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.ViewModel.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\WPFChessGame\\WPFChessGame\\ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\ViewModel\\MainWindow.ViewModel.cs",
+              "RelativeDocumentMoniker": "ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\ViewModel\\MainWindow.ViewModel.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\WPFChessGame\\WPFChessGame\\ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\ViewModel\\MainWindow.ViewModel.cs",
+              "RelativeToolTip": "ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\ViewModel\\MainWindow.ViewModel.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAYwEUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T01:02:41.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\WPFChessGame\\WPFChessGame\\ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\HelperClasses\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\HelperClasses\\ViewModelBase.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\WPFChessGame\\WPFChessGame\\ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\HelperClasses\\ViewModelBase.cs",
+              "RelativeToolTip": "ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\HelperClasses\\ViewModelBase.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T01:02:31.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HelperMethods.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\WPFChessGame\\WPFChessGame\\ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\HelperClasses\\HelperMethods.cs",
+              "RelativeDocumentMoniker": "ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\HelperClasses\\HelperMethods.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\WPFChessGame\\WPFChessGame\\ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\HelperClasses\\HelperMethods.cs",
+              "RelativeToolTip": "ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\HelperClasses\\HelperMethods.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T01:02:23.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ExtensionMethiods.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\WPFChessGame\\WPFChessGame\\ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\HelperClasses\\ExtensionMethiods.cs",
+              "RelativeDocumentMoniker": "ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\HelperClasses\\ExtensionMethiods.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\WPFChessGame\\WPFChessGame\\ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\HelperClasses\\ExtensionMethiods.cs",
+              "RelativeToolTip": "ChessGameUI\\TrevyBurgess.Games.TrevyChess.ChessGameUI\\HelperClasses\\ExtensionMethiods.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T01:02:11.403Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

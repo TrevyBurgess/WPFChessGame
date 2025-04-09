@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="B_Bishop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ChessPieces\B_Bishop.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B_King" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ChessPieces\B_King.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B_Knight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ChessPieces\B_Knight.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B_Pawn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ChessPieces\B_Pawn.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B_Queen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ChessPieces\B_Queen.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B_Rook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ChessPieces\B_Rook.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Help_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Menu\Help_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Help_DialogBoxMessage" xml:space="preserve">
+    <value>Echecs Trevy est Super Cool</value>
+  </data>
+  <data name="Menu_Chess" xml:space="preserve">
+    <value>_Échecs</value>
+  </data>
+  <data name="Menu_Chess_Difficulty" xml:space="preserve">
+    <value>_Difficulté</value>
+  </data>
+  <data name="Menu_Chess_Difficulty_1" xml:space="preserve">
+    <value>_Facile</value>
+  </data>
+  <data name="Menu_Chess_Difficulty_2" xml:space="preserve">
+    <value>_Medium</value>
+  </data>
+  <data name="Menu_Chess_Difficulty_3" xml:space="preserve">
+    <value>M_oyen</value>
+  </data>
+  <data name="Menu_Chess_Difficulty_4" xml:space="preserve">
+    <value>_Expert</value>
+  </data>
+  <data name="Menu_Chess_Difficulty_5" xml:space="preserve">
+    <value>_Grand Maître</value>
+  </data>
+  <data name="Menu_Chess_PlayAgainstComputer" xml:space="preserve">
+    <value>_Jouez contre l'ordinateur</value>
+  </data>
+  <data name="Menu_Chess_PlayerColor" xml:space="preserve">
+    <value>_Player's Color</value>
+  </data>
+  <data name="Menu_Chess_PlayerColor_Black" xml:space="preserve">
+    <value>_Noir</value>
+  </data>
+  <data name="Menu_Chess_PlayerColor_White" xml:space="preserve">
+    <value>_Blanc</value>
+  </data>
+  <data name="Menu_File" xml:space="preserve">
+    <value>_Dossier</value>
+  </data>
+  <data name="Menu_File_Exit" xml:space="preserve">
+    <value>_Sortie</value>
+  </data>
+  <data name="Menu_File_New" xml:space="preserve">
+    <value>_Nouveau</value>
+  </data>
+  <data name="Menu_File_Print" xml:space="preserve">
+    <value>_Imprimer</value>
+  </data>
+  <data name="Menu_Help" xml:space="preserve">
+    <value>_Aider</value>
+  </data>
+  <data name="Menu_Help_About" xml:space="preserve">
+    <value>_À propos de ...</value>
+  </data>
+  <data name="Menu_Help_HelpTopics" xml:space="preserve">
+    <value>Aide _Tpoics</value>
+  </data>
+  <data name="Menu_Tools" xml:space="preserve">
+    <value>_Outils</value>
+  </data>
+  <data name="Menu_Tools_PlayWithoutRules" xml:space="preserve">
+    <value>_Jouer Sans règles</value>
+  </data>
+  <data name="Menu_Tools_ShowChessCodes" xml:space="preserve">
+    <value>Afficher les codes d'échecs</value>
+  </data>
+  <data name="Menu_View" xml:space="preserve">
+    <value>_Voir</value>
+  </data>
+  <data name="Menu_View_RotateBoard" xml:space="preserve">
+    <value>_Tournez Conseil</value>
+  </data>
+  <data name="Menu_View_ShowSillyMessages" xml:space="preserve">
+    <value>_Afficher les messages</value>
+  </data>
+  <data name="Menu_View_StatusBar" xml:space="preserve">
+    <value>_Barre d'état</value>
+  </data>
+  <data name="Menu_View_ToolBar" xml:space="preserve">
+    <value>Barre _d'outils</value>
+  </data>
+  <data name="New_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Menu\New_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PawnPromotion_Instructions" xml:space="preserve">
+    <value>Sélectionnez pièce à remplacer pion</value>
+  </data>
+  <data name="Piece" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ChessPieces\Piece.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Printer_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Menu\Printer_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Printer_48x48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Menu\Printer_48x48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Square1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ChessPieces\Square1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Square2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ChessPieces\Square2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_PlayersColor_Black" xml:space="preserve">
+    <value>Joueur Couleur: Noir</value>
+  </data>
+  <data name="Status_PlayersColor_White" xml:space="preserve">
+    <value>Joueur Couleur: Blanc</value>
+  </data>
+  <data name="Status_PlayersTurn_Black" xml:space="preserve">
+    <value>Joueur Turn: Noir</value>
+  </data>
+  <data name="Status_PlayersTurn_White" xml:space="preserve">
+    <value>Joueur Turn: Blanc</value>
+  </data>
+  <data name="Status_Ready" xml:space="preserve">
+    <value>Prêt</value>
+  </data>
+  <data name="Toolbar_Difficulty" xml:space="preserve">
+    <value>Challenge Niveau:</value>
+  </data>
+  <data name="Toolbar_Difficulty_1" xml:space="preserve">
+    <value>Challenge Niveau: Facile</value>
+  </data>
+  <data name="Toolbar_Difficulty_1_Color" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="Toolbar_Difficulty_2" xml:space="preserve">
+    <value>Challenge Niveau: Moyen</value>
+  </data>
+  <data name="Toolbar_Difficulty_2_Color" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="Toolbar_Difficulty_3" xml:space="preserve">
+    <value>Challenge Level: Difficile</value>
+  </data>
+  <data name="Toolbar_Difficulty_3_Color" xml:space="preserve">
+    <value>GreenYellow</value>
+  </data>
+  <data name="Toolbar_Difficulty_4" xml:space="preserve">
+    <value>Challenge Level: Expert</value>
+  </data>
+  <data name="Toolbar_Difficulty_4_Color" xml:space="preserve">
+    <value>Cyan</value>
+  </data>
+  <data name="Toolbar_Difficulty_5" xml:space="preserve">
+    <value>Challenge Level: Grand Maître</value>
+  </data>
+  <data name="Toolbar_Difficulty_5_Color" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="Toolbar_PlayAgainstComputer" xml:space="preserve">
+    <value>Jouez contre l'ordinateur</value>
+  </data>
+  <data name="Toolbar_PlayAgainstPlayer" xml:space="preserve">
+    <value>Jouez contre Joueur</value>
+  </data>
+  <data name="Toolbar_RotateBoard" xml:space="preserve">
+    <value>Tournez Conseil</value>
+  </data>
+  <data name="Toolbar_UserColor" xml:space="preserve">
+    <value>Couleur utilisateur</value>
+  </data>
+  <data name="TrevyChess" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\TrevyChess.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TrevyChessTitle" xml:space="preserve">
+    <value>Échecs Trevy</value>
+  </data>
+  <data name="W_Bishop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ChessPieces\W_Bishop.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="W_King" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ChessPieces\W_King.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="W_Knight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ChessPieces\W_Knight.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="W_Pawn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ChessPieces\W_Pawn.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="W_Queen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ChessPieces\W_Queen.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="W_Rook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ChessPieces\W_Rook.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

@@ -1,0 +1,101 @@
+﻿<Window x:Class="TrevyBurgess.Games.TrevyChess.ChessGameUI.MainWindow"
+        xmlns:ChessControls="clr-namespace:TrevyBurgess.Games.TrevyChess.ChessGameUI.Controls"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Name="MainWindow1"
+        Title="{Binding TrevyChessTitle}"
+        ResizeMode="CanMinimize"
+        BorderThickness="10" 
+        UseLayoutRounding="False"
+        SizeToContent="WidthAndHeight"
+        Activated="MainWindow1_Activated"
+        Icon="Images/TrevyChess.ico"
+        >
+    <DockPanel>
+
+        <Menu DockPanel.Dock="Top" >
+            <MenuItem x:Name="Menu_File" Header="{Binding Path=Menu_File, Mode=Default}" >
+                <MenuItem x:Name="Menu_File_New" Header="{Binding Menu_File_New}" Click="Menu_File_New_Click" Icon="{Binding Menu_File_New_Icon}" />
+                <Separator/>
+                <MenuItem x:Name="Menu_File_Print" Header="{Binding Menu_File_Print}" Click="Menu_File_Print_Click" Icon="{Binding Menu_File_Print_Icon}" />
+                <Separator/>
+                <MenuItem x:Name="Menu_File_Exit" Header="{Binding Menu_File_Exit}" Click="Menu_File_Exit_Click" Icon="{Binding Menu_File_Exit_Icon}" />
+            </MenuItem>
+            <MenuItem x:Name="Menu_View" Header="{Binding Menu_View}" >
+                <MenuItem x:Name="Menu_View_ToolBar" Header="{Binding Menu_View_ToolBar}" IsCheckable="True" Checked="Menu_View_ToolBar_Checked" Unchecked="Menu_View_ToolBar_Unchecked" />
+                <MenuItem x:Name="Menu_View_StatusBar" Header="{Binding Menu_View_StatusBar}" IsCheckable="True" Checked="Menu_View_StatusBar_Checked" Unchecked="Menu_View_StatusBar_Unchecked" />
+                <Separator/>
+                <MenuItem x:Name="Menu_View_ShowSillyMessages" Header="{Binding Menu_View_ShowSillyMessages}" IsCheckable="True" Checked="Menu_View_ShowSillyMessages_Checked" Unchecked="Menu_View_ShowSillyMessages_Unchecked" />
+                <MenuItem x:Name="Menu_View_RotateBoard" Header="{Binding Menu_View_RotateBoard}" Click="Menu_View_RotateBoard_Click" />
+            </MenuItem>
+            <MenuItem x:Name="Menu_Chess" Header="{Binding Menu_Chess}">
+                <MenuItem x:Name="Menu_Chess_PlayAgainstComputer" Header="{Binding Menu_Chess_PlayAgainstComputer}" IsCheckable="True" Checked="Menu_Chess_PlayAgainstComputer_Checked" Unchecked="Menu_Chess_PlayAgainstComputer_Unchecked" />
+                <MenuItem x:Name="Menu_Chess_Difficulty" Header="{Binding Menu_Chess_Difficulty}" >
+                    <MenuItem x:Name="Menu_Chess_Difficulty_1" Tag="1" Header="{Binding Menu_Chess_Difficulty_1}" Background="{Binding Toolbar_Difficulty_Background_1}" Click="Menu_Chess_Difficulty_Select" IsCheckable="True" />
+                    <MenuItem x:Name="Menu_Chess_Difficulty_2" Tag="2" Header="{Binding Menu_Chess_Difficulty_2}" Background="{Binding Toolbar_Difficulty_Background_2}" Click="Menu_Chess_Difficulty_Select" IsCheckable="True" />
+                    <MenuItem x:Name="Menu_Chess_Difficulty_3" Tag="3" Header="{Binding Menu_Chess_Difficulty_3}" Background="{Binding Toolbar_Difficulty_Background_3}" Click="Menu_Chess_Difficulty_Select" IsCheckable="True" />
+                    <MenuItem x:Name="Menu_Chess_Difficulty_4" Tag="4" Header="{Binding Menu_Chess_Difficulty_4}" Background="{Binding Toolbar_Difficulty_Background_4}" Click="Menu_Chess_Difficulty_Select" IsCheckable="True" />
+                    <MenuItem x:Name="Menu_Chess_Difficulty_5" Tag="5" Header="{Binding Menu_Chess_Difficulty_5}" Background="{Binding Toolbar_Difficulty_Background_5}" Click="Menu_Chess_Difficulty_Select" IsCheckable="True" />
+                </MenuItem>
+                <MenuItem x:Name="Menu_Chess_PlayerColor" Header="{Binding Menu_Chess_PlayerColor}" >
+                    <MenuItem x:Name="Menu_Chess_PlayerColor_Black" Header="{Binding Menu_Chess_PlayerColor_Black}" Click="Menu_Chess_PlayerColor_Black_Click" Background="Black" Foreground="White" />
+                    <MenuItem x:Name="Menu_Chess_PlayerColor_White" Header="{Binding Menu_Chess_PlayerColor_White}" Click="Menu_Chess_PlayerColor_White_Click" Background="White" Foreground="Black" />
+                </MenuItem>
+            </MenuItem>
+            <MenuItem x:Name="Menu_Tools" Header="{Binding Menu_Tools}" >
+                <MenuItem x:Name="Menu_Tools_PlayWithoutRules" Header="{Binding Menu_Tools_PlayWithoutRules}" IsCheckable="True" Click="Menu_Tools_PlayWithoutRules_Click" Visibility="Collapsed" />
+                <MenuItem x:Name="Menu_Tools_ShowChessBoardCode" Header="{Binding Menu_Tools_ShowChessCodes}" IsCheckable="True" Click="Menu_Tools_ShowChessBoardCode_Click" />
+            </MenuItem>
+            <MenuItem x:Name="Menu_Help" Header="{Binding Menu_Help}" >
+                <MenuItem x:Name="Menu_Help_HelpTopics" Header="{Binding Menu_Help_HelpTopics}" Click="Menu_Help_HelpTopics_Click" />
+                <Separator/>
+                <MenuItem x:Name="Menu_Help_About" Header="{Binding Menu_Help_About}" Click="Menu_Help_About_Click" />
+            </MenuItem>
+        </Menu>
+
+        <ToolBarTray DockPanel.Dock="Top" Name="StandardToolbar" Visibility="Collapsed" >
+            <ToolBar >
+                <Button Name="Toolbar_UndoMove" Click="Toolbar_UndoMove_Click" IsEnabled="False" >
+                    <Button.Content>
+                        <Image Source="{Binding Toolbar_UndoMoveImage}" />
+                    </Button.Content>
+                </Button>
+                <Button Name="Toolbar_RedoMove" Click="Toolbar_RedoMove_Click" IsEnabled="False" >
+                    <Button.Content>
+                        <Image Source="{Binding Toolbar_RedoMoveImage}" />
+                    </Button.Content>
+                </Button>
+                <Button Name="Toolbar_RotateBoard" Click="Toolbar_RotateBoard_Click" Content="{Binding Toolbar_RotateBoard}" />
+                <CheckBox Name="Toolbar_PlayAgainstComputer" Click="Toolbar_PlayAgainstComputer_Click"
+                          Content="{Binding Toolbar_PlayAgainstComputer}" IsChecked="False" />
+                <ComboBox Name="Toolbar_Difficulty" Text="{Binding Toolbar_Difficulty}" SelectionChanged="Toolbar_Difficulty_SelectionChanged" >
+                    <ComboBoxItem Background="{Binding Toolbar_Difficulty_Background_1}" Tag="1" Selected="Menu_Chess_Difficulty_Select" Content="{Binding Toolbar_Difficulty_1}" Name="Toolbar_Difficulty_1"  />
+                    <ComboBoxItem Background="{Binding Toolbar_Difficulty_Background_2}" Tag="2" Selected="Menu_Chess_Difficulty_Select" Content="{Binding Toolbar_Difficulty_2}" Name="Toolbar_Difficulty_2"  />
+                    <ComboBoxItem Background="{Binding Toolbar_Difficulty_Background_3}" Tag="3" Selected="Menu_Chess_Difficulty_Select" Content="{Binding Toolbar_Difficulty_3}" Name="Toolbar_Difficulty_3"  />
+                    <ComboBoxItem Background="{Binding Toolbar_Difficulty_Background_4}" Tag="4" Selected="Menu_Chess_Difficulty_Select" Content="{Binding Toolbar_Difficulty_4}" Name="Toolbar_Difficulty_4"  />
+                    <ComboBoxItem Background="{Binding Toolbar_Difficulty_Background_5}" Tag="5" Selected="Menu_Chess_Difficulty_Select" Content="{Binding Toolbar_Difficulty_5}" Name="Toolbar_Difficulty_5"  />
+                </ComboBox>
+                <Button Name="Toolbar_UserColor" Click="Toolbar_UserColor_Click" Content="{Binding Toolbar_UserColor_Click}" />
+            </ToolBar>
+        </ToolBarTray>
+
+        <ChessControls:ChessBoardUi x:Name="ChessBoard1" DockPanel.Dock="Top" />
+
+        <StatusBar DockPanel.Dock="Bottom" >
+            <DockPanel >
+                <DockPanel DockPanel.Dock="Top" Name="GameStatus" Visibility="Collapsed" >
+                    <TextBlock DockPanel.Dock="Top" TextWrapping="Wrap" Name="StatusMessages" Text="Status" />
+
+                    <DockPanel DockPanel.Dock="Top" Name="SillyMessagesContainer" Visibility="Collapsed">
+                        <Separator DockPanel.Dock="Top" Height="1" />
+                        <TextBlock DockPanel.Dock="Bottom" TextWrapping="Wrap" Name="SillyMessages" Text="Silly Messages" />
+                    </DockPanel>
+                </DockPanel>
+                <WrapPanel DockPanel.Dock="Bottom" Name="ChessCodePanel" >
+                    <Button Name="UpdateButton" Content="UpdateBoard" Click="UpdateButton_Click" />
+                    <TextBox Name="ChessCode" DockPanel.Dock="Bottom"  VerticalAlignment="Center" AcceptsReturn="True" MouseDoubleClick="ChessCode_MouseDoubleClick" />
+                </WrapPanel>
+            </DockPanel>
+        </StatusBar>
+    </DockPanel>
+</Window>

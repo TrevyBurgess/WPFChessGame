@@ -1,0 +1,12 @@
+D:\Users\Trevy\Desktop\TrevyBurgess.Games.TrevyChessRoot - 2014-04-09\ChessBoard\TrevyBurgess.Games.TrevyChess.ChessBoardLogic\bin\x86\Debug\TrevyBurgess.Games.TrevyChess.ChessBoardLogic.dll
+D:\Users\Trevy\Desktop\TrevyBurgess.Games.TrevyChessRoot - 2014-04-09\ChessBoard\TrevyBurgess.Games.TrevyChess.ChessBoardLogic\bin\x86\Debug\TrevyBurgess.Games.TrevyChess.ChessBoardLogic.pdb
+D:\Users\Trevy\Desktop\TrevyBurgess.Games.TrevyChessRoot - 2014-04-09\ChessBoard\TrevyBurgess.Games.TrevyChess.ChessBoardLogic\obj\x86\Debug\TrevyBurgess.Games.TrevyChess.ChessBoardLogic.csproj.AssemblyReference.cache
+D:\Users\Trevy\Desktop\TrevyBurgess.Games.TrevyChessRoot - 2014-04-09\ChessBoard\TrevyBurgess.Games.TrevyChess.ChessBoardLogic\obj\x86\Debug\TrevyBurgess.Games.TrevyChess.ChessBoardLogic.csproj.CoreCompileInputs.cache
+D:\Users\Trevy\Desktop\TrevyBurgess.Games.TrevyChessRoot - 2014-04-09\ChessBoard\TrevyBurgess.Games.TrevyChess.ChessBoardLogic\obj\x86\Debug\TrevyBurgess.Games.TrevyChess.ChessBoardLogic.dll
+D:\Users\Trevy\Desktop\TrevyBurgess.Games.TrevyChessRoot - 2014-04-09\ChessBoard\TrevyBurgess.Games.TrevyChess.ChessBoardLogic\obj\x86\Debug\TrevyBurgess.Games.TrevyChess.ChessBoardLogic.pdb
+D:\Dev\GitHub\WPFChessGame\WPFChessGame\ChessBoard\TrevyBurgess.Games.TrevyChess.ChessBoardLogic\bin\x86\Debug\TrevyBurgess.Games.TrevyChess.ChessBoardLogic.dll
+D:\Dev\GitHub\WPFChessGame\WPFChessGame\ChessBoard\TrevyBurgess.Games.TrevyChess.ChessBoardLogic\bin\x86\Debug\TrevyBurgess.Games.TrevyChess.ChessBoardLogic.pdb
+D:\Dev\GitHub\WPFChessGame\WPFChessGame\ChessBoard\TrevyBurgess.Games.TrevyChess.ChessBoardLogic\obj\x86\Debug\TrevyBurgess.Games.TrevyChess.ChessBoardLogic.csproj.AssemblyReference.cache
+D:\Dev\GitHub\WPFChessGame\WPFChessGame\ChessBoard\TrevyBurgess.Games.TrevyChess.ChessBoardLogic\obj\x86\Debug\TrevyBurgess.Games.TrevyChess.ChessBoardLogic.csproj.CoreCompileInputs.cache
+D:\Dev\GitHub\WPFChessGame\WPFChessGame\ChessBoard\TrevyBurgess.Games.TrevyChess.ChessBoardLogic\obj\x86\Debug\TrevyBurgess.Games.TrevyChess.ChessBoardLogic.dll
+D:\Dev\GitHub\WPFChessGame\WPFChessGame\ChessBoard\TrevyBurgess.Games.TrevyChess.ChessBoardLogic\obj\x86\Debug\TrevyBurgess.Games.TrevyChess.ChessBoardLogic.pdb
