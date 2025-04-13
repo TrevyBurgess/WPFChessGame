@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.35906.104 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrevyBurgess.Games.TrevyChess.ChessGameUI", "ChessGameUI\TrevyBurgess.Games.TrevyChess.ChessGameUI\TrevyBurgess.Games.TrevyChess.ChessGameUI.csproj", "{EE237342-BC1A-4495-9E23-22C4BA7C322E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0833490E-FBA0-433F-8D7D-BD5BB8324844}"
@@ -27,7 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrevyBurgess.Games.TrevyChe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrevyBurgess.Games.TrevyChess.ChessBoardTests", "ChessBoard\TrevyBurgess.Games.TrevyChess.ChessBoardTests\TrevyBurgess.Games.TrevyChess.ChessBoardTests.csproj", "{F323BD79-F5D7-4CAE-998B-E14FBCE5F8BB}"
 EndProject
-
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +41,16 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE237342-BC1A-4495-9E23-22C4BA7C322E}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{EE237342-BC1A-4495-9E23-22C4BA7C322E}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{EE237342-BC1A-4495-9E23-22C4BA7C322E}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{EE237342-BC1A-4495-9E23-22C4BA7C322E}.Debug|x86.ActiveCfg = Debug|x86
+		{EE237342-BC1A-4495-9E23-22C4BA7C322E}.Debug|x86.Build.0 = Debug|x86
+		{EE237342-BC1A-4495-9E23-22C4BA7C322E}.Release|Any CPU.ActiveCfg = Release|x86
+		{EE237342-BC1A-4495-9E23-22C4BA7C322E}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{EE237342-BC1A-4495-9E23-22C4BA7C322E}.Release|Mixed Platforms.Build.0 = Release|x86
+		{EE237342-BC1A-4495-9E23-22C4BA7C322E}.Release|x86.ActiveCfg = Release|x86
+		{EE237342-BC1A-4495-9E23-22C4BA7C322E}.Release|x86.Build.0 = Release|x86
 		{DF5A2ED5-4B33-465D-A62F-47B721957960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DF5A2ED5-4B33-465D-A62F-47B721957960}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF5A2ED5-4B33-465D-A62F-47B721957960}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
@@ -74,24 +87,17 @@ Global
 		{F323BD79-F5D7-4CAE-998B-E14FBCE5F8BB}.Release|Mixed Platforms.Build.0 = Release|x86
 		{F323BD79-F5D7-4CAE-998B-E14FBCE5F8BB}.Release|x86.ActiveCfg = Release|x86
 		{F323BD79-F5D7-4CAE-998B-E14FBCE5F8BB}.Release|x86.Build.0 = Release|x86
-		{EE237342-BC1A-4495-9E23-22C4BA7C322E}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{EE237342-BC1A-4495-9E23-22C4BA7C322E}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{EE237342-BC1A-4495-9E23-22C4BA7C322E}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{EE237342-BC1A-4495-9E23-22C4BA7C322E}.Debug|x86.ActiveCfg = Debug|x86
-		{EE237342-BC1A-4495-9E23-22C4BA7C322E}.Debug|x86.Build.0 = Debug|x86
-		{EE237342-BC1A-4495-9E23-22C4BA7C322E}.Release|Any CPU.ActiveCfg = Release|x86
-		{EE237342-BC1A-4495-9E23-22C4BA7C322E}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{EE237342-BC1A-4495-9E23-22C4BA7C322E}.Release|Mixed Platforms.Build.0 = Release|x86
-		{EE237342-BC1A-4495-9E23-22C4BA7C322E}.Release|x86.ActiveCfg = Release|x86
-		{EE237342-BC1A-4495-9E23-22C4BA7C322E}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{DF5A2ED5-4B33-465D-A62F-47B721957960} = {73792924-55AB-4293-BFBF-AA5021BDD4B1}
-		{F323BD79-F5D7-4CAE-998B-E14FBCE5F8BB} = {73792924-55AB-4293-BFBF-AA5021BDD4B1}
 		{EE237342-BC1A-4495-9E23-22C4BA7C322E} = {33AB83E1-011B-42E9-BF51-BA526362C45C}
+		{DF5A2ED5-4B33-465D-A62F-47B721957960} = {73792924-55AB-4293-BFBF-AA5021BDD4B1}
 		{338366AC-FE02-420F-A4AB-9DA45398D978} = {7C952715-AF6D-459D-8C41-5372E0DD2B2E}
+		{F323BD79-F5D7-4CAE-998B-E14FBCE5F8BB} = {73792924-55AB-4293-BFBF-AA5021BDD4B1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7489AA8B-3E7E-4C47-A38E-13E16629B1FD}
 	EndGlobalSection
 EndGlobal
