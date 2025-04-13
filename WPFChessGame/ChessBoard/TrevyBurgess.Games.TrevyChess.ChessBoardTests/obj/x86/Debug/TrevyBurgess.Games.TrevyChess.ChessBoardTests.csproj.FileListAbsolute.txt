@@ -1,2 +1,0 @@
-D:\Users\Trevy\Desktop\TrevyBurgess.Games.TrevyChessRoot - 2014-04-09\ChessBoard\TrevyBurgess.Games.TrevyChess.ChessBoardTests\obj\x86\Debug\TrevyBurgess.Games.TrevyChess.ChessBoardTests.csproj.AssemblyReference.cache
-D:\Users\Trevy\Desktop\TrevyBurgess.Games.TrevyChessRoot - 2014-04-09\ChessBoard\TrevyBurgess.Games.TrevyChess.ChessBoardTests\obj\x86\Debug\TrevyBurgess.Games.TrevyChess.ChessBoardTests.csproj.CoreCompileInputs.cache
